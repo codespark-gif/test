@@ -1,0 +1,29 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    border: 18px solid #bdc3c7;
+    padding: 20px;
+}
+
+.hello {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2.0rem;
+}
+
+hr {
+    height: 1px;
+    background-color: #f9f6f6;
+    border: none;
+}
+
+div p:nth-of-type(1)  {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
